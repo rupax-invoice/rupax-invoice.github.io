@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RupaX Invoice Generator</title>
+  <meta name="google-site-verification" content="FFlatfzTnvwliYm3lkc56BDuPojrEXCRGamiuQZ6tek" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+        }
+
+        .container {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        p {
+            color: #a0a0a0;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+
+        .reload-btn {
+            background: linear-gradient(135deg, #e94560 0%, #ff6b6b 100%);
+            color: white;
+            border: none;
+            padding: 1rem 2.5rem;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(233, 69, 96, 0.4);
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .reload-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(233, 69, 96, 0.6);
+        }
+
+        .reload-btn:active {
+            transform: translateY(-1px);
+        }
+
+        .info {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .info h3 {
+            color: #e94560;
+            margin-bottom: 0.5rem;
+        }
+
+        .info ul {
+            list-style: none;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+
+        .info li {
+            margin: 0.3rem 0;
+        }
+
+        .info li::before {
+            content: "✓ ";
+            color: #4ecca3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>RupaX Invoice Generator</h1>
+        <p>Create cryptographically-signed, tamper-proof invoices in seconds</p>
+        
+        <a href="https://rupax-invoices.github.io/" class="reload-btn">
+            🚀 Go to Invoice Generator
+        </a>
+
+        <div class="info">
+            <h3>Features</h3>
+            <ul>
+                <li>GST-ready invoicing</li>
+                <li>Multi-currency support</li>
+                <li>Professional PDF export</li>
+                <li>Real-time preview</li>
+                <li>Free to use, no account needed</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
